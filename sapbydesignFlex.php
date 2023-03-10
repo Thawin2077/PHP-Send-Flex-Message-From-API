@@ -65,6 +65,13 @@ $flexData = array();
 foreach ($data['d']['results'] as $result) {
     $flexData[] = array(
         'type' => 'bubble',
+        'hero' => array(
+            'type' => 'image',
+            'url' => 'https://i.imgur.com/0zzmh83.png',
+            'size' => 'full',
+            'aspectRatio' => '20:13',
+            'aspectMode' => 'cover',
+        ),
         'body' => array(
             'type' => 'box',
             'layout' => 'vertical',
@@ -74,7 +81,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'CCO UUID',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#f20505',
+                    'decoration' => 'underline'
                 ),
                 array(
                     'type' => 'text',
@@ -87,7 +95,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'CLOG AREA UUID',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#f28705',
+                    'decoration' => 'underline'
                 ),
                 array(
                     'type' => 'text',
@@ -100,7 +109,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'TLOG AREA UUID',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#f2ea05',
+                    'decoration' => 'underline'
                 ),
                 array(
                     'type' => 'text',
@@ -113,7 +123,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'CMATERIAL UUID',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#70f205',
+                    'decoration' => 'underline'
                     ),
                     array(
                     'type' => 'text',
@@ -126,7 +137,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'TMATERIAL UUID',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#05f2ce',
+                    'decoration' => 'underline'
                     ),
                     array(
                     'type' => 'text',
@@ -139,7 +151,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'KCs1ANs556A4FF848FA1E6',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#057ff2',
+                    'decoration' => 'underline'
                     ),
                     array(
                     'type' => 'text',
@@ -152,7 +165,8 @@ foreach ($data['d']['results'] as $result) {
                     'text' => 'KCON HAND STOCK',
                     'weight' => 'bold',
                     'size' => 'sm',
-                    'color' => '#000000'
+                    'color' => '#ab05f2',
+                    'decoration' => 'underline'
                     ),
                     array(
                     'type' => 'text',
