@@ -1,3 +1,7 @@
+แก้ filter เพื่อเลือก UUID ที่จะ loop เข้ามาใส่ flex
+
+'$filter' => '(CSITE_UUID eq \'YDDM_SN\')',
+
 หากต้องการตัดทศนิยมใน flex ออกให้ใช้ format ดังนี้
 
 ตัดทศนิยมออก 
